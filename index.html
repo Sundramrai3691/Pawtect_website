@@ -3,46 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pawtect | Smart Pet Wearable</title>
+  <title>Pawtect | Smart Wearables for Pets</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #fefefe;
-      color: #2c3e50;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e0f7fa;
+      color: #004d40;
     }
     header {
-      background-color: #ff7043;
-      padding: 20px;
-      text-align: center;
+      background-color: #00bcd4;
       color: white;
+      text-align: center;
+      padding: 30px 20px 20px;
     }
-    .logo {
-      width: 80px;
-      height: 80px;
-      background-color: white;
+    .logo img {
+      width: 90px;
+      height: 90px;
       border-radius: 50%;
-      margin: auto;
+      border: 3px solid white;
       margin-bottom: 10px;
     }
-    .container {
-      max-width: 700px;
-      margin: 20px auto;
-      padding: 20px;
+    nav {
       background-color: #ffffff;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-      border-radius: 12px;
+      text-align: center;
+      padding: 10px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
-    h1, h2 {
-      color: #ff7043;
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #00796b;
+      font-weight: bold;
+    }
+    .section {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #00796b;
+      margin-top: 0;
     }
     footer {
       text-align: center;
-      padding: 10px;
+      padding: 20px;
       font-size: 14px;
-      color: #777;
-      margin-top: 30px;
+      background-color: #e0f7fa;
+      margin-top: 50px;
     }
   </style>
 </head>
@@ -50,32 +61,56 @@
 
   <header>
     <div class="logo">
-      <!-- Placeholder for your future logo -->
+      <img src="logo.jpg" alt="Pawtect Logo" />
     </div>
     <h1>Pawtect</h1>
-    <p>Smart Wearables for Pets</p>
+    <p>Smart Wearables for Your Furry Companions</p>
   </header>
 
-  <div class="container">
-    <h2>Who We Are</h2>
-    <p>We’re a team of three undergraduate engineers from NIT Raipur — <b>Tanish Dhavale</b>, <b>Sundram Rai</b>, and <b>Sanskriti Sharma</b> — united by our love for animals and innovation.</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#vision">Vision</a>
+    <a href="#team">Our Team</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <h2>What We Do</h2>
-    <p>Dogs can’t speak when something’s wrong. Pawtect is building a smart wearable that tracks real-time health and emotional cues—helping pet parents act before it’s too late.</p>
+  <div class="section" id="about">
+    <h2>About Pawtect</h2>
+    <p><strong>Pawtect</strong> is a pet-tech startup born from compassion and innovation. We aim to tackle a fundamental problem — pets can’t speak when something’s wrong. Our smart wearable device empowers pet parents with real-time updates on their pet’s health and emotional state, allowing early detection of discomfort or illness even when you're away.</p>
+  </div>
 
-    <h2>Why Pawtect?</h2>
+  <div class="section" id="vision">
+    <h2>Our Vision</h2>
+    <p>We envision a world where no pet suffers in silence. With Pawtect, pet parents get peace of mind, early warnings, and personalized data insights to ensure their furry friends stay happy and healthy.</p>
+
+    <h3>Future Scope</h3>
     <ul>
-      <li>Real-time health monitoring</li>
-      <li>Behavioral alerts and cues</li>
-      <li>Peace of mind when you're away</li>
+      <li>AI-based emotion and activity detection</li>
+      <li>Veterinary integrations for early diagnosis</li>
+      <li>Cloud-based health records and analytics</li>
+      <li>Community features for pet-parent collaboration</li>
     </ul>
+  </div>
 
+  <div class="section" id="team">
+    <h2>Our Team</h2>
+    <p>We are three passionate engineers from <strong>National Institute of Technology (NIT) Raipur</strong>, each bringing a unique perspective:</p>
+    <ul>
+      <li><strong>Tanish Dhavale</strong> – Electrical Engineering</li>
+      <li><strong>Sundram Rai</strong> – Chemical Engineering</li>
+      <li><strong>Sanskriti Sharma</strong> – Materials Engineering</li>
+    </ul>
+    <p>We combine our love for animals with deep technical curiosity to create something truly impactful.</p>
+  </div>
+
+  <div class="section" id="contact">
     <h2>Contact Us</h2>
     <p>Email: <a href="mailto:pawtect.team@gmail.com">pawtect.team@gmail.com</a></p>
+    <p>Location: NIT Raipur, Chhattisgarh, India</p>
   </div>
 
   <footer>
-    &copy; 2025 Pawtect. All rights reserved.
+    &copy; 2025 Pawtect | Built with love for pets.
   </footer>
 
 </body>
